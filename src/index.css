@@ -25,7 +25,8 @@ button {
   padding: 0;
   width: auto;
   overflow: visible;
-  background: transparent;
+  background: white;
+  opacity: 0.8;
   color: inherit;
   font: inherit;
   line-height: normal;
@@ -146,7 +147,7 @@ body {
 }
 /* END GLOBAL STYLES */
 .todoapp {
-  background: #fff;
+  background-image: linear-gradient(to left, #20BF55, #01BAEF);
   margin: 2rem 0 4rem 0;
   padding: 1rem;
   position: relative;
